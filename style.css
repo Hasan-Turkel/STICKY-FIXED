@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
 }
 header{
     background-image:linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
@@ -40,6 +41,7 @@ img{
     top:0;
     padding: 25px;
     word-spacing: 15px;
+    z-index: 1;
 }
 .home a{
     text-decoration: none;
