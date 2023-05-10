@@ -33,3 +33,82 @@ img{
 .home{
     clear: both;
 }
+.home{
+    background-image:linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+    text-align: center;
+    position: sticky;
+    top:0;
+    padding: 25px;
+    word-spacing: 15px;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.home a:hover{
+    color: white;
+}
+.hi{
+    background-image: url(./img/banner.jpg);
+    width: 100vw;
+    height: 65vh;
+    background-size:100% 100%;
+    position: relative;
+}
+.hi h1{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top:30%;
+    left: 10%;
+}
+.hi p{
+    color: red;
+    font-size: 20px;
+    text-shadow: 0 2px 4px white;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+}
+.hi button{
+    color: black;
+    background-color:violet;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    top: 55%;
+    left:10%;
+    cursor: pointer;
+}
+.hi button:hover{
+    background-color: rgba(255, 255, 255, 0.404);
+}
+main{
+    font-size: 20px;
+    padding: 20px;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    background-color: red;
+    border-radius: 50% ;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.logo:hover{
+    color: black;
+    outline: 3px solid red;
+    outline-offset: 4px;}
+
+
+
